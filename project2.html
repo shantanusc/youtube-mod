@@ -12,14 +12,67 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles1/header.css">
     <link rel="stylesheet" href="styles1/general.css">
+    <link rel="stylesheet" href="styles1/sidebar.css">
    
 </head>
 <body>
-        <input class="search" type="text" placeholder="Hello">
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+            <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+        </div>
+        <div class="middle-section">     
+       <input class="search" type="text" placeholder="Search">
+       <button class="search-button">
+        <img class="search-icon" src="icons/search.svg" alt="">
+        <div>Search</div>
+    </button >
+       <button class="voice-search-button">
+         <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+        </button>
+         </div>
+        <div class="right-section">
+            <img class="upload-icon" src="icons/upload.svg" alt="#">
+            <img class="youtube-app-icon" src="icons/youtube-apps.svg" alt="#">
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="icons/notifications.svg" alt="#">
+                <div class="notifications-count">3</div>
+            </div>
+            <img class="current-user-picture" src="thumbnails/fight-profile.jpg" alt="">
+        </div>
+    </div>
+        <div class="sidebar">
+            <div class="sidebar-link" >
+                <img src="thumbnails/home.svg" alt="#">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="thumbnails/explore.svg" alt="#">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="thumbnails/subscriptions.svg" alt="#">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="thumbnails/originals.svg" alt="#">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="thumbnails/youtube-music.svg" alt="#">
+                <div>Youtube-music</div>
+            </div>
+            <div class="sidebar-link"><img src="thumbnails/library.svg" alt="#">
+                <div>Library</div>
+            </div>
+
+        </div>
+    
         <div class="video-grid">
             <div class="video-review"> 
                 <div class="thumbnail-row">
                     <img class="img1" src="thumbnails/hq720.jpg" alt="">
+                    <div class="video-time">14:20</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
@@ -34,9 +87,9 @@
             </div>
            
             <div class="video-review">
-                 <div class="thumbnail-row"> 
-                    
+                 <div class="thumbnail-row">  
                     <img class="img1" src="thumbnails/html.jpg" alt="">
+                    <div class="video-time">7:00</div>
                 </div>
             <div class="video-info-grid">
                 <div class="channel-picture">
@@ -53,6 +106,7 @@
             <div class="video-review"> 
                 <div class="thumbnail-row">
                     <img class="img1" src="thumbnails/arpit.jpg" alt="">
+                    <div class="video-time">6:45</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
@@ -70,6 +124,7 @@
                 <div class="thumbnail-row"> 
                    
                    <img class="img1" src="thumbnails/ufc.jpg" alt="">
+                   <div class="video-time">55:90</div>
                </div>
            <div class="video-info-grid">
                <div class="channel-picture">
@@ -82,10 +137,45 @@
                </div>       
             </div>         
            </div>
+           <div class="video-review">
+            <div class="thumbnail-row"> 
+               
+               <img class="img1" src="thumbnails/ufc.jpg" alt="">
+               <div class="video-time">55:90</div>
+           </div>
+       <div class="video-info-grid">
+           <div class="channel-picture">
+               <img class="profile-picture" src="thumbnails/ufc-profile.jpg" alt="">
+           </div>
+           <div class="video-info">
+               <p class="video-title">FULL EPISODE | UFC 296 Countdown</p>
+               <p class="video-author">UFC</p>
+               <p class="views">359K views 17 hours ago</p>
+           </div>       
+        </div>         
+       </div>
+    
+       <div class="video-review"> 
+        <div class="thumbnail-row">
+            <img class="img1" src="thumbnails/fight.jpg" alt="">
+            <div class="video-time">3:21</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+             <img class="profile-picture" src="thumbnails/fight-profile.jpg" alt="">
+              </div>
+            <div class="video-info">
+            <p class="video-title">Fight Club Where Is My Mind Pixies</p>
+            <p class="video-author">HD Film Tributes</p>
+            <p class="views">7.7M views 5 years ago</p>
+        </div>
+        </div>
+    </div>
         
            <div class="video-review"> 
             <div class="thumbnail-row">
                 <img class="img1" src="thumbnails/fight.jpg" alt="">
+                <div class="video-time">3:21</div>
             </div>
             <div class="video-info-grid">
                 <div class="channel-picture">
@@ -103,6 +193,7 @@
             <div class="thumbnail-row"> 
                
                <img class="img1" src="thumbnails/stocism.jpg" alt="">
+               <div class="video-time">3:22</div>
            </div>
         <div class="video-info-grid">
            <div class="channel-picture">

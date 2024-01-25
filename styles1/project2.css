@@ -8,13 +8,13 @@
     border-style: solid; */
  }
  
-  .video-title{
+  /* .video-title{
     font-weight: bold;
     margin-bottom: 6px;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
 
- }
+ } */
   .video-author,
   .views{
     color: rgb(94, 94, 94);
@@ -44,19 +44,30 @@
    width: 200px;
 }
 .profile-picture{
-   width: 40px;
+   width: 36px;
    border-radius: 50px;
-   
-  
 }
 .video-title{
    margin-top: 0px;
    font-size: 14px;
-   font-weight: 700;
+   font-weight: 500;
    line-height: 18px;
-   margin-bottom: 12px;
+   margin-bottom: 10px;
 }
 .thumbnail-row{
-   margin-bottom: 12px;
-
+   margin-bottom: 8px;
+   position: relative;
 }
+.video-time{
+   font-family: Roboto, Arial;
+   font-size: 12px;
+   font-weight: 500;
+   padding: 4px;
+   border-radius: 2px;
+   background-color: black;
+   color: white;
+   position: absolute;
+   bottom: 8px;
+   right: 5px;
+}
+/* 5:50 */
